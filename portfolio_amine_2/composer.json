@@ -1,0 +1,18 @@
+{
+    "name": "amineaboudaoud/portfolio_amine_2",
+    "description": "portfolioAmine",
+    "require": {
+        "php": "7.4.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amineaboudaoud\\PortfolioAmine2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "minodz9",
+            "email": "amine.aboudaoud@gmail.com"
+        }
+    ]
+}

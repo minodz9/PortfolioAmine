@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="images/logoportfolio.png" type="image/-icon" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+			crossorigin="anonymous"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Portfolio Website</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<div>
+					<img
+						class="logop"
+						src="./images/logoportfolio.png"
+						alt="logoairplane"
+					/>
+				</div>
+				<ul class="hideNavbar">
+					<li class="nav-links"><a href="#Home">Accueil</a></li>
+					<li class="nav-links"><a href="#page-1">À propos</a></li>
+					<li class="nav-links"><a href="#page-2">Compétences</a></li>
+					<li class="nav-links"><a href="#page-3">Portfolio</a></li>
+					<li class="nav-links"><a href="#page-4">Contact</a></li>
+				</ul>
+				<button>
+					<i class="fas fa-bars"></i>
+				</button>
+			</nav>
+			<section id="Home" class="home-content">
+				<div class="home-text">
+					<h3>Hello,</h3>
+					<h1>Moi c'est <span class="coloredText"> Amine</span></h1>
+					<h3 class="panim1">Je suis </h3>
+					<h3 id="target"></h3>
+					<button class="btn">Bienvenue à bord</button>
+				</div>
+
+				<div class="scroll">
+					<i class="fas fa-plane-departure"></i>
+				</div>
+			</section>
+			<div class="cover hidenCover"></div>
+		</header>
+		<main>
+			<section id="page-1" class="page">
+				<div class="container">
+					<h3>À propos</h3>
+					<div class="aboutMe">
+						<figure>
+							<img src="./images/aminecockpit.jpg" alt="amine" />
+						</figure>
+						<article>
+							<div class="wrapper">
+								<div class="static-txt">Passionné par le</div>
+								<ul class="dynamic-txts">
+									<li><span>Développement Web</span></li>
+								</ul>
+							</div>
+
+							<p>
+								Passionné d'informatique depuis mon passage au CNAM, j'ai décidé
+								d'entamer une reconversion professionnelle dans le développement
+								web et web mobile, en intégrant La Passerelle. Dans le cadre de
+								ma fin de formation, je suis à la recherche d'un stage afin
+								d'approfondir mes connaissances. Créatif et ouvert d'esprit, je
+								sais m'intégrer et entretenir de bonnes relations au sein d'une
+								équipe.
+							</p>
+
+							<a
+								href="./images/CV_Amine_ABOUDAOUD_Développeur_Web.pdf"
+								class="btn downloadCV"
+								download="CV_Amine.pdf"
+							>
+								<span>Télécharger CV</span></a
+							>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="page-2" class="page">
+				<div class="container">
+					<h3>Compétences</h3>
+					<div class="skills">
+						<span class="Name">Html</span>
+						<div class="percent">
+							<div class="progress" style="width: 80%"></div>
+						</div>
+						<span class="value">80%</span>
+					</div>
+					<div class="skills">
+						<span class="Name">CSS</span>
+						<div class="percent">
+							<div class="progress" style="width: 70%"></div>
+						</div>
+						<span class="value">70%</span>
+					</div>
+					<div class="skills">
+						<span class="Name">Javacript</span>
+						<div class="percent">
+							<div class="progress" style="width: 60%"></div>
+						</div>
+						<span class="value">60%</span>
+					</div>
+					<div class="skills">
+						<span class="Name">PHP</span>
+						<div class="percent">
+							<div class="progress" style="width: 50%"></div>
+						</div>
+						<span class="value">50%</span>
+					</div>
+					<div class="skills">
+						<span class="Name">Symfony</span>
+						<div class="percent">
+							<div class="progress" style="width: 60%"></div>
+						</div>
+						<span class="value">60%</span>
+					</div>
+					<div class="skills">
+						<span class="Name">React</span>
+						<div class="percent">
+							<div class="progress" style="width: 50%"></div>
+						</div>
+						<span class="value">50%</span>
+					</div>
+					<div class="skills">
+						<span class="Name">Bootstrap</span>
+						<div class="percent">
+							<div class="progress" style="width: 70%"></div>
+						</div>
+						<span class="value">70%</span>
+					</div>
+				</div>
+			</section>
+			<section id="page-3" class="page">
+				<div class="container">
+					<h3>Projets</h3>
+					<ul>
+						<li class="project">
+							<figure class="project_Image">
+								<img src="./images/matched.jpeg" />
+								<div class="project-links">
+									<a
+										href="https://www.behance.net/gallery/128187755/Matched-Web-App-de-matching-de-comptences-numriques"
+										><i class="fas fa-link"></i
+									></a>
+									<a href="#"><i class="fas fa-info"></i></a>
+								</div>
+							</figure>
+							<h4>Projet Symfony/React</h4>
+						</li>
+						<li class="project">
+							<figure class="project_Image">
+								<img src="./images/cocktail.jpeg" />
+								<div class="project-links">
+									<a
+										href="http://localhost:8888/mister_cocktail_jour_3/index.php"
+										><i class="fas fa-link"></i
+									></a>
+									<a href="#"><i class="fas fa-info"></i></a>
+								</div>
+							</figure>
+							<h4>Projet PHP/SQL</h4>
+						</li>
+						<li class="project">
+							<figure class="project_Image">
+								<img src="images/yoga.jpg" />
+								<div class="project-links">
+									<a href="#"><i class="fas fa-link"></i></a>
+									<a href="#"><i class="fas fa-info"></i></a>
+								</div>
+							</figure>
+							<h4>Projet intégration html/css</h4>
+						</li>
+						<li class="project">
+							<figure class="project_Image">
+								<img src="./images/03-Montre-560x420.jpg" />
+								<div class="project-links">
+									<a href="#"><i class="fas fa-link"></i></a>
+									<a href="#"><i class="fas fa-info"></i></a>
+								</div>
+							</figure>
+							<h4>Projet intégration responsive design</h4>
+						</li>
+						<li class="project">
+							<figure class="project_Image">
+								<img src="./images/fitnessman.jpg "/>
+								<div class="project-links">
+									<a href="#"><i class="fas fa-link"></i></a>
+									<a href="#"><i class="fas fa-info"></i></a>
+								</div>
+							</figure>
+							<h4>Projet Javascript</h4>
+						</li>
+						<li class="project">
+							<figure class="project_Image">
+								<img src="./images/logoportfolio.png" />
+								<div class="project-links">
+									<a href="#"><i class="fas fa-link"></i></a>
+									<a href="#"><i class="fas fa-info"></i></a>
+								</div>
+							</figure>
+							<h4>Projet En cours</h4>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="page-4" class="page">
+				<div class="container">
+					<h3>Contact</h3>
+					<div class="contact">
+						<form action="contact.php" method="post">
+							<h4>Me Contacter</h4>
+							<div class="row">
+								<input type="text" name="nom" placeholder="Nom" />
+								<input type="email" name="email" placeholder="Email" />
+							</div>
+							<div class="row">
+								<input type="text" name="subjet" placeholder="Sujet" />
+							</div>
+							<div class="row">
+								<textarea
+									name="message"
+									placeholder="Message"
+									cols="30"
+									rows="6"
+								></textarea>
+							</div>
+							<div class="row">
+								<button type="submit" class="btn" name="Valider">
+									Valider
+								</button>
+							</div>
+						</form>
+						<div>
+							<h4>Contact info</h4>
+							<ul class="contactInfo">
+								<li>
+									<i class="fas fa-phone-square-alt"></i
+									><span>06 22 15 64 06</span>
+								</li>
+								<li>
+									<i class="fas fa-envelope"></i
+									><span>amine.aboudaoud@gmail.com</span>
+								</li>
+								<li>
+									<i class="fas fa-map-marker-alt"></i>
+									<span>Rue boyer 75020</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="copyright">
+					<p>&copy; Amine ABOUDAOUD</p>
+				</div>
+				<div class="social-medias">
+					<a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/minoz75"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a href="https://www.linkedin.com/feed/"
+						><i class="fab fa-linkedin-in"></i
+					></a>
+					<a href="https://github.com/minodz9"><i class="fab fa-github"></i></a>
+					<a href="./images/cvphoto.jpg"><i class="fas fa-user-tie"></i></a>
+				</div>
+			</footer>
+		</main>
+		<script src="script.js"></script>
+	</body>
+</html>
